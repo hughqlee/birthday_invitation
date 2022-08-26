@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'MapoFlowerIsland';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'MapoFlowerIsland';
+}
+
+h2, p {
+    margin: 10vw;
+}
+
+p {
+    font-size: 20px;
+}
+
+span {
+    background:linear-gradient(to right bottom, hotpink, skyblue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+hr {
+    width: 5vw;
+}
+
+img {
+    margin: 5vw 0;
+    width: 90vw;
+}
+
+.main {
+    margin: 5vw auto;
+    padding: 0;
+    width: 90vw;
+    height: 140vw;
+    border-radius: 45vw 45vw 0 0;
+    background-image: url('imgs/main.jpg');
+    background-size: cover;
+}
+
+.card {
+    margin: 0;
+    padding: 10vw 5vw;
+    width: 90vw;
+    text-align: center;
+    color: #f3716d;
+}
+
+.card:nth-child(3), .card:nth-child(5) {
+    background-color: #FFF4E0;
+}
+
+.swiper-slide {
+    border-radius: 100%;
+}
+
+.swiper-pagination, .swiper-button-prev, .swiper-button-next {
+    --swiper-theme-color: #f3716d;
+}

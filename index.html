@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div class="main">
+    </div>
+    <div class="card">
+        <h2>초대합니다</h2>
+        <hr>
+        <p>
+            우리 채이의<br>
+            <span>첫번째</span> 생일을 맞이하여<br>
+            소박하게 식사하고<br>
+            담소나눌 자리를<br>
+            마련했습니다.
+        </p>
+        <p>
+            귀한 발걸음 하셔서<br>
+            자리를 빛내주시기 바랍니다.
+        </p>
+        <p>엄마 수경, 아빠 현규 올림.</p>
+    </div>
+    <div class="card">
+        <h2>언제?</h2>
+        <hr>
+        <p>
+            2022년 10월 3일 월요일<br>
+            오후 5시 (개천절)
+        </p>
+    </div>
+    <div class="card">
+        <h2>어디서?</h2>
+        <hr>
+        <p>대구 동구 도평로 271 라온하제</p>
+        <img src="imgs/map.jpg">
+    </div>
+    <div class="card">
+        <h2>감사합니다.</h2>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <img class="swiper-slide" src="imgs/IMG_0973.JPG" />
+              <img class="swiper-slide" src="imgs/IMG_2696.jpeg" />
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    });
+</script>
+</html>
