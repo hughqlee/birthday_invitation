@@ -5,17 +5,26 @@
     font-style: normal;
 }
 
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+
 body {
     margin: 0;
-    font-family: 'MapoFlowerIsland';
+    font-family: 'Noto Sans KR';
 }
 
 h2, p {
     margin: 10vw;
 }
 
+h2 {
+    font-family: 'MapoFlowerIsland';
+}
+
 p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 span {
@@ -27,6 +36,8 @@ span {
 
 hr {
     width: 5vw;
+    border-color: #f3716d;
+    border-bottom: none;
 }
 
 img {
