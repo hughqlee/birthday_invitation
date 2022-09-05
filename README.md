@@ -4,7 +4,7 @@
     * set title
     * content font family, size 
     * hr color
-* Third Commit (Aug. 27th)
+* Third Commit (Sep. 5th)
     * OpenGraph
     * Fabicon
     * Imgs

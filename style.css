@@ -25,6 +25,7 @@ h2 {
 
 p {
     font-size: 18px;
+    line-height: 24px;
 }
 
 span {
@@ -36,8 +37,7 @@ span {
 
 hr {
     width: 5vw;
-    border-color: #f3716d;
-    border-bottom: none;
+    border-top: 1px solid #f3716d;
 }
 
 img {
@@ -65,10 +65,6 @@ img {
 
 .card:nth-child(3), .card:nth-child(5) {
     background-color: #FFF4E0;
-}
-
-.swiper-slide {
-    border-radius: 100%;
 }
 
 .swiper-pagination, .swiper-button-prev, .swiper-button-next {
