@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta property="og:image" content="https://hughqlee.github.io/birthday_invitation/imgs/main.jpg" />
+    <meta property="og:image" content="https://hughqlee.github.io/birthday_invitation/imgs/preview.png" />
     <meta property="og:description" content="2022년 10월 3일 월요일 (개천절) 오후 5시 채이의 첫번째 생일 파티가 카페 라온하제에서 있습니다." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>채이의 첫번째 생일에 초대합니다</title>
-    <link rel="icon" type="image/x-icon" href="/imgs/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://hughqlee.github.io/birthday_invitation//imgs/favicon.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 </head>
@@ -33,6 +33,7 @@
     <div class="card">
         <h2>언제?</h2>
         <hr>
+        <img src="imgs/calendar.png">
         <p>
             2022년 10월 3일 월요일 (개천절)<br>
             오후 5시
@@ -41,8 +42,8 @@
     <div class="card">
         <h2>어디서?</h2>
         <hr>
+        <img src="imgs/map.png">
         <p>대구 동구 도평로 271 라온하제</p>
-        <img src="imgs/map.jpg">
     </div>
     <div class="card">
         <div class="swiper">
@@ -54,10 +55,6 @@
             </div>
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
-            
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
         </div>
         <h2>감사합니다.</h2>
     </div>
@@ -72,12 +69,6 @@ const swiper = new Swiper('.swiper', {
         // If we need pagination
         pagination: {
             el: '.swiper-pagination',
-        },
-
-        // Navigation arrows
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
         },
 
         // And if we need scrollbar
