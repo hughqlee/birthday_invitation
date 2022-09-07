@@ -74,4 +74,5 @@ img {
 
 .swiper-pagination, .swiper-button-prev, .swiper-button-next {
     --swiper-theme-color: #f3716d;
+    bottom: 0 !important;
 }
