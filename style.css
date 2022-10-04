@@ -64,11 +64,12 @@ img {
     color: #f3716d;
 }
 
-.card:nth-child(3) > p, .card:nth-child(4) > p {
-    margin-top: 0;
+.card:nth-child(1) {
+    padding: 10vw 0;
+    width: 100vw;
 }
 
-.card:nth-child(3), .card:nth-child(5) {
+.card:nth-child(2), .card:nth-child(4) {
     background-color: #FFF4E0;
 }
 
@@ -94,6 +95,10 @@ img {
     margin: 0 0 20px 0;
     width: 320px;
     border-radius: 50%;
+}
+
+.congrat {
+    color: lightgray;
 }
 
 @media (min-width: 721px) {

@@ -225,5 +225,6 @@ cython_debug/
 old.css
 old.html
 old2.html
+backup
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,python,visualstudiocode
