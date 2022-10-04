@@ -98,7 +98,7 @@ img {
 }
 
 .congrat {
-    color: lightgray;
+    color: gray;
 }
 
 @media (min-width: 721px) {
